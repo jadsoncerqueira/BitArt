@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <title>Home</title>
+</head>
+<body>
+    <header id="cabeçalho"><h1>Galeria</h1></header>
+
+    <input type="checkbox" name="" id="ativa-desativa-modal">
+
+    <div class="telaPop" id="tela-popup">
+        <div id="entrada-tamanho">
+            <p id="titulo-entrada">Escolha o Tamanho</p>
+            <div id="entradas">
+                <input autofocus placeholder="Largura" type="number" name="" id="largura">
+                <input placeholder="Altura" type="number" name="" id="altura">
+            </div>
+            <div id="cria-grade">
+                <input id="botao-criar-grade" type="button" value="Criar Grade">
+            </div>
+        </div>
+    </div>
+
+    <main id="conteudo-principal">
+
+        <section id="galeria"></section>
+        <input type="button" id="btn-adicionar" value="+">
+        
+    </main>
+    <script src="./js/galeria.js"></script>
+</body>
+</html>
